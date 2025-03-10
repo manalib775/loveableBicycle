@@ -1,0 +1,11 @@
+# Allow all web crawlers
+User-agent: *
+Allow: /
+
+# Prevent crawling of specific routes
+Disallow: /api/
+Disallow: /auth/
+Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://pling.com/sitemap.xml
